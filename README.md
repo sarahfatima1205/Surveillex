@@ -30,3 +30,76 @@ abnormal_train_dataset = ShanghaiDataset(train=True, is_normal=False, transform=
 
 # Load test data
 test_dataset = ShanghaiDataset(train=False, transform=None)
+
+⚙️ Installation
+Clone the Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/sarahfatima1205/Surveillex.git
+cd Surveillex
+Install Dependencies
+
+Make sure Python 3.6+ is installed. Then, install the required packages:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🧠 Model Overview
+Surveillex uses a deep learning model for temporal and spatial feature extraction from video sequences to identify anomalies effectively. More details on the architecture will be added soon.
+
+🚀 Running the Project
+Prepare the dataset as outlined in the Dataset Setup section.
+
+Train the model:
+
+bash
+Copy
+Edit
+python train.py
+Evaluate the model:
+
+bash
+Copy
+Edit
+python evaluate.py
+Note: Replace script names as per your actual file names if different.
+
+📂 Project Structure
+bash
+Copy
+Edit
+Surveillex/
+├── checkpoints/        # Saved model checkpoints
+├── list/               # Dataset list directory
+├── results/            # Evaluation outputs
+├── src/                # Core source code
+├── dataset.py          # Custom dataset script
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
+📊 Results
+Evaluation metrics and visualizations will be added in upcoming updates.
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+📬 Contact
+For questions or feedback, feel free to reach out to @sarahfatima1205.
+
+vbnet
+Copy
+Edit
+
+Let me know if you'd like help auto-generating badges (build status, license, etc.) for the top of the README.
+
+
+
+
+
+
+
